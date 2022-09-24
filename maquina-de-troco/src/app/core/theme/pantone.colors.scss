@@ -1,0 +1,103 @@
+/* Cor do fundo da  aplicação */
+$application-background:#aaa;
+
+/* Cores de avisos e botões de dialogs */
+$default:#a1040d;
+$warning:#ffc107;
+$error: #dc3545;
+$sucess: #198754;
+$info: #1bbaff;
+
+/* Cores de botões */
+$action:#198754;
+$cancel:#dc3545;
+
+/* Cores do tema do Angular Material */
+
+$primary:#da291c;
+$primary-light:#f4bfbb;
+$primary-darker:#cb1911;
+$primary-slider:#da291c;
+
+$accent:#a1040d;
+$accent-light:#e3b4b6;
+$accent-darker:#850207;
+$accent-slider:#ad2116;
+
+$warn:#ff0000;
+$warn-light:#ffb3b3;
+$warn-darker:#ff0000;
+$warn-slider:#ff0000;
+
+
+/* paleta dos mat-tabs */
+$tab-background-desselect:#ccc;
+$tab-background-selected:#a1040d;
+$tab-text-color-selected:white;
+$tab-body-background:white;
+
+/* Cor padrão de borda */
+$border-color: #0000001f;
+
+/* Cores das tabelas */
+$header-left-background: #eeeeee;
+$header-top-background:#eeeeee;
+$header-top-text-color:black;
+
+$border-tabela-color:#dedede;
+$table-line-even:#efefef;
+
+/* Cores da scrollbar */
+$scroll-thumb-color:#cccc;
+
+$button-MainScreen-footer:#FFF;
+$button-MainScreen-aside-left:#a1040d;
+
+
+/* Legendas de tabelas */
+
+/* Tabela do diário de bordo. */
+$legenda-materiais:yellow;
+$legenda-producao:#00c700;
+
+/* Tabela rastreabilidade */
+$rastreabilidade-agrupada:tomato;
+
+/* tabela programação */
+$programacao-pronto:#72caff;
+$programacao-parcial:#f2ff4d;
+$programacao-produzindo:#31f99e;
+$programacao-principal-agrupamento:#B12127;
+$programacao-filha-agrupamento:#ffb32a;
+$programacao-erro-agrupamento:#ff0000;
+
+/* Tabela resumo coleta */
+$cep-fora-do-padrao:tomato;
+
+/* Tabrla historico solicitações */
+$historico-solicitacoes-cancelada:tomato;
+$historico-solicitacoes-nao-atendida:#ccc;
+
+/* Tabela parcial */
+$turno-1:#7ed3fa;
+$turno-2:#f8f864;
+$turno-3:#00c700;
+
+/* Legenda de status da máquina */
+$em-producao:palegreen;
+$em-parada:tomato;
+$em-ociosidade:gray;
+$em-manutencao: LightSkyBlue;
+$em-setup:yellow;
+$exportacao:#FF0000;
+
+
+/* loading */
+$loading-background:#0000001f;
+
+/* $em-producao:PaleGreen;
+$em-parada:red;
+$em-ociosidade:gray;
+$em-manutencao:LightSkyBlue;
+$em-setup:yellow;
+$exportacao:red; */

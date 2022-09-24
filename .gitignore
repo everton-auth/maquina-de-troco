@@ -613,3 +613,8 @@ $RECYCLE.BIN/
 **/*.orig
 **/node_modules/
 **/*.orig
+
+
+/.angular
+/.angular/cache
+*.angular

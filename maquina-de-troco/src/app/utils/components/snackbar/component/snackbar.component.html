@@ -1,0 +1,14 @@
+<div fxLayout="row" id="SnackbarMainSection" fxLayoutGap="10px">
+  <div fxLayout="column" id="TextSection" fxFlex>
+    <div fxLayout="column" fxFlex>
+      <span class="snackbarText" fxLayoutAlign="center center" [innerHTML]="data.message">
+      </span>
+    </div>
+  </div>
+  <div id="ButtonSection">
+    <div fxLayout="row" fxFill fxLayoutGap="5px">
+      <mat-divider vertical></mat-divider>
+      <button mat-button (click)="snack.dismissWithAction()" [ngClass]="data.type">{{ data.button }}</button>
+    </div>
+  </div>
+</div>

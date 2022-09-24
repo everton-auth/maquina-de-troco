@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CaixaComponentComponent } from './caixa-component/caixa-component.component';
+import { MainComponentComponent } from './main-component/main-component.component';
 
 const routes: Routes = [
     {
         path: "",
-        component: CaixaComponentComponent
+        component: MainComponentComponent,
     }
 ];
 

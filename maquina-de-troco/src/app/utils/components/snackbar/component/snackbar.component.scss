@@ -1,0 +1,65 @@
+@import '../../../../core/theme/pantone.colors.scss';
+
+::ng-deep {
+
+  .mat-snack-bar-container {
+    padding: 0;
+  }
+
+  $font-size: 20px;
+
+  .default {
+    background: $default;
+    color: #fff;
+  }
+
+  .warning {
+    background-color: $warning;
+    color: black;
+  }
+
+  .error {
+    background-color: $error;
+    color: #fff;
+  }
+
+  .success {
+    background-color: $sucess;
+    color: #fff;
+  }
+
+  .info {
+    background-color: $info;
+    color: black;
+  }
+
+  #SnackbarMainSection {
+    padding: 10px;
+
+      #TextSection {
+        overflow: hidden;
+
+        .snackbarText {
+          padding: 10px !important;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+
+      }
+
+      #ButtonSection {
+
+        mat-divider {
+          border-right-color: $border-color;
+        }
+
+        button {
+          padding: 0;
+          font-weight: bold;
+        }
+      }
+
+    
+
+  }
+}
