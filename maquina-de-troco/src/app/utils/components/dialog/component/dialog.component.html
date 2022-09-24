@@ -1,0 +1,27 @@
+<div class="custom-dialog" 
+  fxLayout="column">
+  <div fxFill id="spinner-content" *ngIf="dialogLoad">
+    <mat-spinner mode="indeterminate" id="spinner"></mat-spinner>
+</div>
+  <div class="custom-dialog-header" fxFlex="60px" *ngIf="dialog.type" [ngClass]="dialog.type">
+    <span>{{ dialog.title }}</span>
+  </div>
+  <div class="custom-dialog-container">
+    <div
+      [ngClass]="{ message: dialog.message}"
+      adHost
+      [innerHTML]="dialog.message"
+    ></div>
+  </div>
+  <div fxFlex="67px" class="custom-dialog-footer" *ngIf="dialog.buttons">
+    <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="10px">
+      <button
+        mat-flat-button
+        *ngFor="let button of dialog.buttons; let i = index"
+        (click)="handleButton(button)"
+        class="{{ button.color }}">
+        {{ button.text }}
+      </button>
+    </div>
+  </div>
+</div>
