@@ -1,0 +1,13 @@
+::ng-deep {
+  app-main-component {
+    height: 100%;
+
+    mat-drawer {
+        min-width: 250px;
+    }   
+
+    #navbar-title-app {
+      color: white;
+    }
+  }
+}

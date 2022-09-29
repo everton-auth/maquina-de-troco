@@ -1,3 +1,13 @@
-<p>
-  main-component works!
-</p>
+<mat-drawer-container fxFlex>
+  <mat-drawer #drawer mode="push">
+    <button mat-flat-button> CAIXA </button>
+  </mat-drawer>
+  <main>
+    <mat-toolbar color="primary">
+      <button mat-icon-button color="accent" (click)="drawer.toggle()">
+        <mat-icon> menu </mat-icon>
+      </button>
+      <h1 id="navbar-title-app"> {{ appName.toUpperCase() }} </h1>
+    </mat-toolbar>
+  </main>
+</mat-drawer-container>

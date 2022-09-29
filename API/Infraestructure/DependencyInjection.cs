@@ -9,7 +9,7 @@ public static class DependencyInjection {
     public static IServiceCollection AddInfrastructure( this IServiceCollection services , IConfiguration configuration ) {
 
         services.AddDbContext<ApplicationDBContext>( c =>
-           c.UseInMemoryDatabase("caixa") );
+           c.UseInMemoryDatabase( databaseName: "caixa" ) );
 
         services.AddScoped<IApplicationDBContext>( provider => provider.GetRequiredService<ApplicationDBContext>() );
         return services;

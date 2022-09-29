@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  BaseURL: "http://localhost:5110localhost/api"
+  BaseURL: "http://localhost:5110/api",
+  App_Name: "Máquina de troco"
 };
 
 /*

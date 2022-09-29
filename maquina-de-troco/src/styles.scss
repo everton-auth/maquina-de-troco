@@ -34,14 +34,11 @@ $maquina-de-troco-theme: mat.define-light-theme((color: (primary: $maquina-de-tr
 html,
 body {
   height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 
-/* @import '../src/app/core/theme/global.theme.scss';
 @import '../src/app/core/theme/application-theme.scss';
-@import '../src/app/core/theme/pantone.colors.scss'; */
+@import '../src/app/core/theme/global.theme.scss';
+@import '../src/app/core/theme/pantone.colors.scss';

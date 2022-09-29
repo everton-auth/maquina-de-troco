@@ -7,8 +7,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Commons\" />
-		<Folder Include="Caixa\" />
+		<Folder Include="Caixa\Queries\" />
+		<Folder Include="Estoque\Queries\" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />

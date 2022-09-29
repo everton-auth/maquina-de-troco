@@ -1,3 +1,4 @@
+using API.Common.Middlewares;
 using Application;
 using Infraestructure;
 
@@ -35,6 +36,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseExceptionMiddleware();
 
 
 app.Run();
